@@ -1,0 +1,26 @@
+{
+  "name": "gitstatus",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Git Status UI",
+  "author": "Saulo Aflitos <sauloal@gmail.com>",
+  "main": "index.js",
+  "single-instance": true,
+  "scripts": {"start": "nodemon index.js"},
+  "license": "Apache 2.0",
+  "dependencies": {
+    "body-parser": "*",
+    "compression": "*",
+    "checksum": "*",
+    "debug": "*",
+    "errorhandler": "*",
+    "express": "*",
+    "method-override": "*",
+    "node-persist": "*",
+    "request": "*",
+    "time": "*",
+    "nodemon": "*",
+    "pem": "*",
+    "github": "*"
+  }
+}
